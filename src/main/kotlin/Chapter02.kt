@@ -86,7 +86,7 @@ fun mix(c1: Color, c2: Color) =
         else -> throw Exception("Dirty color")
     }
 
-fun fizzBuzz(i: Int) = when {
+private fun fizzBuzz(i: Int) = when {
     i % 15 == 0 -> "FizzBuzz "
     i % 3 == 0 -> "Fizz "
     i % 5 == 0 -> "Buzz "
